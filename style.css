@@ -1,0 +1,40 @@
+table.account {
+    border: 1px solid black;
+    float: left;
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+th, td {
+    border: 1px solid black;
+    
+}
+
+thead {
+    background-color: lightgrey;
+}
+
+tfoot {
+    border-top: 3px solid black; 
+}
+
+.values {
+    clear: both; 
+}
+
+.table-right {
+    
+    background-color:green;      
+}
+
+.table-wrong {
+    background-color: red;    
+}
+
+.cell {
+    text-align: center;
+    width: 100px;
+    height: 33px;
+    display: table-cell;
+    vertical-align: middle;
+}
